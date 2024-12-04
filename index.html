@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Website</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <!-- the logo links back to the home section -->
+    <a href="#home" class="logo">CARLOTA NAVARRO</a>
+    <div id="menu-icon">
+      <i class="fas fa-bars"></i> <!-- hamburger icon -->
+    </div>
+
+    <nav class="navbar">
+      <!-- navigation links to all sections -->
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="mailto:carlota@umich.edu">Contact</a>
+    </nav>
+
+    <!-- toggle between light and dark mode -->
+    <button id="mode-toggle">Toggle Mode</button>
+  </header>
+
+  <!-- main content starts here -->
+  <main>
+    <section class="home section-white" id="home">
+      <div class="home-content">
+        <h3>Hello I'm</h3>
+        <h1>Carlota Navarro</h1>
+        <h2 class="no-transform">Student at the University of Michigan</h2>
+        <p>
+          I’m currently a sophomore at the University of Michigan in the College of Engineering. I’m majoring in
+          Computer
+          Science and pursuing another degree in User Experience Design, along with a minor in Business.
+        </p>
+
+        <!-- download resume button -->
+        <div class="resume-button">
+          <a href="Navarro_Carlota_Resume.pdf" class="button" download="CarlotaNavarro_Resume.pdf"
+            target="_blank">Resume</a>
+        </div>
+
+        <div class="home-img">
+          <img src="images/profile.png" alt="Carlota Navarro" />
+        </div>
+      </div>
+    </section>
+
+    <!-- social icons section -->
+    <div class="social-icons vertical">
+      <a href="mailto:carlota@umich.edu" target="_blank" aria-label="Email">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/carlota-navarro/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/otanavarro" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/carlotanavarroz/?next=%2F" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+
+    <section class="about section-gray" id="about">
+      <div class="about-images-left">
+        <!-- fun pictures from my life -->
+        <img src="images/about1.JPG" alt="Image 1" />
+        <img src="images/about2.jpg" alt="Image 2" />
+        <img src="images/about3.JPG" alt="Image 3" />
+      </div>
+
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m Carlota! I grew up in Caracas, Venezuela, and Miami, Florida, and I’m now studying Computer Science
+          and
+          User Experience Design at the University of Michigan. I’m passionate about blending technology and design to
+          create meaningful, user-centered solutions and am excited to explore areas like machine learning and
+          accessibility in the future. Outside of academics, I love playing guitar and piano, filming travel vlogs, and
+          perfecting my Venezuelan arepas. Whether it’s on the tennis court, water-skiing, or spending time with family,
+          I’m always finding ways to balance creativity, connection, and adventure.
+        </p>
+      </div>
+
+      <div class="about-images-right">
+        <!-- more fun pictures -->
+        <img src="images/about6.JPG" alt="Image 4" />
+        <img src="images/about5.JPG" alt="Image 5" />
+        <img src="images/about4.JPG" alt="Image 6" />
+      </div>
+    </section>
+
+    <section class="experience section-white" id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <!-- each timeline item is one of my experiences -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>SPARK Electric Racing</h3>
+            <span class="timeline-date">Sept. 2023 – present</span>
+            <p>
+              - Developed a fully responsive dynamic dashboard display using QML and C++ with real-time visualizations
+              for
+              7+ key parameters (e.g., speed, temperatures, battery voltage), optimizing rider interaction and improving
+              vehicle performance through intuitive control and immediate feedback.
+            </p>
+            <p>
+              - Integrated light and dark mode functionality for the touchscreen display, enhancing user experience by
+              allowing riders to adjust the interface based on personal preferences, resulting in a 15% improvement in
+              rider comfort.
+            </p>
+            <p>
+              - Collaborated with a team of 5 engineering students to conduct iterative UI optimizations, achieving a
+              10%
+              faster data refresh rate and enhanced readability, directly contributing to quicker rider decision-making.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Michigan Quantitative Computing</h3>
+            <span class="timeline-date">Mar. 2024 – present</span>
+            <p>
+              - Co-led the development of a responsive website using HTML and CSS to establish an online presence and
+              streamline announcements, resulting in a 75% increase in applications during recruitment.
+            </p>
+            <p>
+              - Programming Predictify, a 12-week project focused on using natural language processing to make stock
+              predictions.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Association of Latino Professionals for America</h3>
+            <span class="timeline-date">Sept. 2023 – present</span>
+            <p>
+              - Automated Instagram and email marketing campaigns for Mensajeros de La Paz using Python scripts and the
+              Instagram API to boost digital presence, increasing followers by 10%, and raising $30K for children in
+              need.
+            </p>
+            <p>
+              - Facilitated the ALPFA Mentorship Program by matching upper- and lowerclassmen based on career interests,
+              providing tools for underrepresented groups, and exploring the intersection of software engineering and
+              business.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Mercenari Educational Consulting</h3>
+            <span class="timeline-date">Aug. 2022 – present</span>
+            <p>
+              - Tutored 10 high school students in AP Calculus and AP CSA, increasing GPA by an average of 0.5 points.
+            </p>
+            <p>
+              - Worked with a 4 person team to raise SAT success rate of high school students by creating customized
+              lesson plans that coincided with the various learning styles of students, improving scores by a guaranteed
+              100 points.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-gray" id="projects">
+      <h2>Projects</h2>
+      <!-- quick summaries of my main projects -->
+      <div class="projects-box">
+
+        <div class="project-card">
+          <img src="images/predictify.png" alt="Project 1 Image" />
+          <h3>Predictify</h3>
+          <p>
+            A platform leveraging natural language processing to analyze financial news and provide stock market
+            predictions, helping users decide whether to buy, sell, or hold their chosen stocks. The platform aims to
+            make
+            investment insights more accessible to engineering students. </p>
+        </div>
+
+
+        <div class="project-card">
+          <img src="images/mozart.png" alt="Project 2 Image" />
+          <h3>Mini Mozart</h3>
+          <p>
+            I collaborated with a team of four to develop a digital piano using a DE2-115 FPGA, programming its
+            functionality in Verilog to enable user interaction through a touchscreen interface and provide real-time
+            audio feedback. Additionally, I integrated four input/output devices into the ASE1 100 platform, including a
+            touchscreen, SD card, LEDs, and a speaker, to enhance the piano's features and usability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-white" id="skills">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <!-- technical Skills -->
+        <div class="skills-box">
+          <img src="images/technical.png" alt="Technical Skills Logo" class="skills-box-logo">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>- C++, Python, MATLAB</li>
+            <li>- HTML, CSS, JavaScript</li>
+            <li>- Verilog, QML, PyTorch</li>
+            <li>- Git, GitHub</li>
+          </ul>
+        </div>
+
+        <!-- design & development -->
+        <div class="skills-box">
+          <img src="images/community.png" alt="Design and Development Logo" class="skills-box-logo">
+          <h3>Design & Development</h3>
+          <ul>
+            <li>- UI/UX Design and Testing</li>
+            <li>- Web Accessibility</li>
+            <li>- FPGA Digital Piano</li>
+            <li>- Electric Vehicle Dashboard</li>
+            <li>- Filmmaking & Video Editing</li>
+          </ul>
+        </div>
+
+        <!-- leadership & personal skills -->
+        <div class="skills-box">
+          <img src="images/development.png" alt="Leadership and Personal Skills Logo" class="skills-box-logo">
+          <h3>Leadership & Personal Skills</h3>
+          <ul>
+            <li>- Mentorship Program Development</li>
+            <li>- Team Leadership and Strategy</li>
+            <li>- Bilingual: Spanish & English</li>
+            <li>- Adaptability & Cultural Awareness</li>
+            <li>- Music: Guitar, Piano</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- main content ends here -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- social icons repeated for footer -->
+      <div class="social-icons vertical">
+        <a href="mailto:carlota@umich.edu" target="_blank" aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/carlota-navarro/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/otanavarro" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/carlotanavarroz/?next=%2F" target="_blank" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+
+      <!-- footer navigation -->
+      <ul class="footer-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/dark-mode.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+
+</html>
