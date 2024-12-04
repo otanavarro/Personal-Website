@@ -888,3 +888,30 @@ body.scrolled .header {
 .skills-box:hover {
   animation: float 2s ease-in-out infinite;
 }
+
+/* adjust styles for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+  section,
+  .project-card,
+  .timeline-item {
+    opacity: 1;
+    transform: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .button:hover,
+  .logo:hover,
+  .social-icons.vertical a:hover,
+  .about-images-left img:hover,
+  .about-images-right img:hover,
+  .skills-box:hover {
+    transform: none;
+  }
+}
